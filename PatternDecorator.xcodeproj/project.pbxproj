@@ -15,6 +15,8 @@
 		9B0662CA1F2C459400C6B389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0662C81F2C459400C6B389 /* LaunchScreen.storyboard */; };
 		9B0662D51F2C459400C6B389 /* PatternDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0662D41F2C459400C6B389 /* PatternDecoratorTests.swift */; };
 		9B0662E01F2C459400C6B389 /* PatternDecoratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0662DF1F2C459400C6B389 /* PatternDecoratorUITests.swift */; };
+		9B0662EE1F2C45D100C6B389 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0662ED1F2C45D100C6B389 /* Beverage.swift */; };
+		9B0662F01F2C47E300C6B389 /* CondimentDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0662EF1F2C47E300C6B389 /* CondimentDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9B0662DB1F2C459400C6B389 /* PatternDecoratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternDecoratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0662DF1F2C459400C6B389 /* PatternDecoratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternDecoratorUITests.swift; sourceTree = "<group>"; };
 		9B0662E11F2C459400C6B389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0662ED1F2C45D100C6B389 /* Beverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		9B0662EF1F2C47E300C6B389 /* CondimentDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CondimentDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				9B0662BC1F2C459400C6B389 /* AppDelegate.swift */,
 				9B0662BE1F2C459400C6B389 /* ViewController.swift */,
+				9B0662ED1F2C45D100C6B389 /* Beverage.swift */,
+				9B0662EF1F2C47E300C6B389 /* CondimentDecorator.swift */,
 				9B0662C01F2C459400C6B389 /* Main.storyboard */,
 				9B0662C61F2C459400C6B389 /* Assets.xcassets */,
 				9B0662C81F2C459400C6B389 /* LaunchScreen.storyboard */,
@@ -267,7 +273,9 @@
 			files = (
 				9B0662BF1F2C459400C6B389 /* ViewController.swift in Sources */,
 				9B0662C51F2C459400C6B389 /* PatternDecorator.xcdatamodeld in Sources */,
+				9B0662EE1F2C45D100C6B389 /* Beverage.swift in Sources */,
 				9B0662BD1F2C459400C6B389 /* AppDelegate.swift in Sources */,
+				9B0662F01F2C47E300C6B389 /* CondimentDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,14 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var houseBlend: Beverage = HouseBlend()
+        print("current order : ", houseBlend.getDescription())
+        print("current cost : ", houseBlend.cost())
+        
+        houseBlend = Milk(beverage: houseBlend)
+        print("current order : ", houseBlend.getDescription())
+        print("current cost : ", houseBlend.cost())
+        
+        houseBlend = Whip(beverage: houseBlend)
+        print("current order : ", houseBlend.getDescription())
+        print("current cost : ", houseBlend.cost())
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
